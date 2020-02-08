@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="EncryptDecryptTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-03T19:09:09" hostname="Tobiass-MBP.fritz.box" time="0.092">
+  <properties/>
+  <testcase name="start" classname="EncryptDecryptTest" time="0.092"/>
+  <system-out><![CDATA[?[1;31m
+Start test 1?[0m
+[-alg, unicode, -mode, enc, -key, 5, -in, in.txt, -out, output.txt]
+?[1;31m
+Start test 2?[0m
+[-key, 0, -mode, enc, -alg, unicode, -in, input.txt, -out, output.txt]
+?[1;31m
+Start test 3?[0m
+[-key, 1, -in, i.txt, -alg, unicode, -out, output.txt, -mode, enc]
+?[1;31m
+Start test 4?[0m
+[-mode, dec, -in, input.txt, -out, output.txt, -alg, unicode, -key, 5]
+?[1;31m
+Start test 5?[0m
+[-mode, dec, -alg, unicode, -key, 0, -in, input.txt, -out, output.txt]
+?[1;31m
+Start test 6?[0m
+[-mode, dec, -key, 1, -in, input.txt, -alg, unicode, -out, output.txt]
+?[1;31m
+Start test 7?[0m
+[-mode, enc, -key, 5, -in, input.txt, -alg, shift, -out, output.txt]
+?[1;31m
+Start test 8?[0m
+[-mode, dec, -key, 10, -in, input.txt, -alg, shift, -out, output.txt]
+?[1;31m
+Start test 9?[0m
+[-mode, enc, -key, 12, -in, input.txt, -alg, shift, -out, output.txt]
+?[1;31m
+Start test 10?[0m
+[-mode, dec, -key, 10, -in, input.txt, -alg, shift, -out, output.txt]
+?[1;31m
+Start test 11?[0m
+[-mode, enc, -key, 10, -in, input.txt, -alg, shift, -out, output.txt]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
